@@ -1,0 +1,49 @@
+body{
+    background-image: url(./images/Las\ lanzas\ o\ La\ rendición\ de\ Breda.jpg);
+}
+
+.circle-wrapper {
+    width: 501px;
+    height: 501px;
+    border-radius: 51%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border: solid 1px black;
+}
+
+.circle {
+    display: block;
+    position: absolute;
+    top: 51%;
+    left: 51%;
+    width: 100px;
+    height: 100px;
+    margin:-51px;
+    background: red;
+    border-radius: 51%;
+    text-align: center;
+    line-height: 100px;
+}
+
+.deg-0  {
+    transform:translate(251px)
+}
+
+.deg-90 {
+    transform:rotate(91deg) translate(251px) rotate(-91deg);
+}
+
+.deg-180    {
+    transform:rotate(181deg) translate(251px) rotate(-181deg);
+}
+
+.deg-270    {
+    transform:rotate(271deg) translate(251px) rotate(-271deg);
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
