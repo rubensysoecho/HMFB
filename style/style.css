@@ -1,0 +1,11 @@
+body {
+  background-color: wheat;
+}
+
+.slideshow {
+  max-width: 500px;
+}
+
+.slides {
+  width: 100%;
+}
