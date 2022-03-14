@@ -126,6 +126,24 @@ header h1 {
 }
 
 .titulo {
-  font-size: x-large;
+  font-size: xx-large;
   text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.menu {
+  display: table;
+  margin:0 auto;
+}
+
+.menu-row {
+  display: table-row;
+}
+
+.menu-item  {
+  text-align: center;
+  width: 30px;
+  font-size: x-large;
+  display: table-cell;
+  margin: 15px;
 }
