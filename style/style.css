@@ -1,8 +1,15 @@
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
+html  {
+  background-color: rgb(160, 140, 103);
+}
 
 body {
   background-color: wheat;
   font-family: "IM Fell English", serif;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-image: url();
 }
 
 img {
@@ -16,7 +23,7 @@ header {
 }
 
 header h1 {
-  vertical-align: middle;
+  margin-top: 40px;
   width: 100%;
 }
 
@@ -109,4 +116,16 @@ header h1 {
   to {
     opacity: 1;
   }
+}
+
+.principal  {
+  margin-top: 200px;
+  width: 1000px;
+  margin:0 auto;
+  border: 1px solid black;
+}
+
+.titulo {
+  font-size: x-large;
+  text-align: center;
 }
