@@ -151,6 +151,10 @@ header h1 {
     display: table-cell;
 }
 
+.menu-item:hover{
+    transform: scale(1.2);
+}
+
 .menu-item-img {
     width: 120px;
     height: 120px;
