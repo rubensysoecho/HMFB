@@ -5,9 +5,9 @@ html  {
 body {
   background-color: wheat;
   font-family: "IM Fell English", serif;
-  margin-left: 600px;
-  margin-right: 600px;
-
+  margin-left: 50px;
+  margin-right: 50px;
+margin-top: 0;
   border-left: 1px solid black;
   border-right: 1px solid black;
   border-image: url();
