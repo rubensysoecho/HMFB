@@ -3,121 +3,124 @@
 
 <head>
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./style/font.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>History most famous battles</title>
     <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-      
-      function plusSlides(n) {
-        showSlides(slideIndex += n);
-      }
-      
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-      
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {slideIndex = 1}    
-        if (n < 1) {slideIndex = slides.length}
-        for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
         }
-        for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
         }
-        slides[slideIndex-1].style.display = "block";  
-        dots[slideIndex-1].className += " active";
-      }
-      </script>
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) {
+                slideIndex = 1
+            }
+            if (n < 1) {
+                slideIndex = slides.length
+            }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
 </head>
 
 <body>
     <header>
-      <h1>HISTORY MOST FAMOUS BATTLES</h1>
+        <h1>HISTORY MOST FAMOUS BATTLES</h1>
     </header>
 
     <div>
-      <div class="slideshow-container">
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img src="./images/large_agincourt_600.jpg" style="width:100%">
-          <div class="text">Batalla de Agincourt-1415</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="./images/Las lanzas o La rendición de Breda.jpg" style="width:100%">
-          <div class="text">Sitio de Breda-1625</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="./images/Scotland_Forever!.jpg" style="width:100%">
-          <div class="text">Batalla de Waterloo-1815</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./images/large_agincourt_600.jpg" style="width:100%">
+                <div class="text">Batalla de Agincourt-1415</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./images/Las lanzas o La rendición de Breda.jpg" style="width:100%">
+                <div class="text">Sitio de Breda-1625</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./images/Scotland_Forever!.jpg" style="width:100%">
+                <div class="text">Batalla de Waterloo-1815</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
         </div>
         <br>
         <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
         </div>
     </div>
 
     <div class="principal">
-      <div class="titulo">
-        EDADES DE LA HISTORIA
-      </div>
+        <div class="titulo">
+            EDADES DE LA HISTORIA
+        </div>
 
-      <div class="menu">
-          <div class="menu-row">
-            <div class="menu-item">
-              <a href="">
-                <div class="menu-item-img"><img src="./images/pngwing.com (1).png" alt=""></div>
-                <div class="menu-item-txt">ÉPOCA CLÁSICA</div>
-              </a>
+        <div class="menu">
+            <div class="menu-row">
+                <div class="menu-item">
+                    <a href="">
+                        <div class="menu-item-img"><img src="./images/pngwing.com (1).png" alt=""></div>
+                        <div class="menu-item-txt">ÉPOCA CLÁSICA</div>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="">
+                        <div class="menu-item-img"><img src="./images/medieval-g38a211195_640.png" alt=""></div>
+                        <div class="menu-item-txt">ÉPOCA MEDIEVAL</div>
+                    </a>
+                </div>
             </div>
-            <div class="menu-item">
-              <a href="">
-                <div class="menu-item-img"><img src="./images/medieval-g38a211195_640.png" alt=""></div>
-                <div class="menu-item-txt">ÉPOCA MEDIEVAL</div>
-              </a>
+            <div class="menu-row">
+                <div class="menu-item">
+                    <a href="">
+                        <div class="menu-item-img"><img src="./images/morrion.png" alt=""></div>
+                        <div class="menu-item-txt">EDAD MODERNA</div>
+                    </a>
+                </div>
+                <div class="menu-item">
+                    <a href="">
+                        <div class="menu-item-img"><img src="./images/pngwing.com.png" alt=""></div>
+                        <div class="menu-item-txt">ÉPOCA CONTEMPORÁNEA</div>
+                    </a>
+                </div>
             </div>
-          </div>
-          <div class="menu-row">
-            <div class="menu-item">
-              <a href="">
-                <div class="menu-item-img"><img src="./images/morrion.png" alt=""></div>
-                <div class="menu-item-txt">EDAD MODERNA</div>
-              </a>
-            </div>
-            <div class="menu-item">
-              <a href="">
-                <div class="menu-item-img"><img src="./images/pngwing.com.png" alt=""></div>
-                <div class="menu-item-txt">ÉPOCA CONTEMPORÁNEA</div>
-              </a>
-            </div>
-          </div>
-      </div>
+        </div>
     </div>
 
     <footer>
-      <h3>WEBSITE MADE BY RUBÉN MARTÍNEZ RODRÍGUEZ</h3>
+        <h3>WEBSITE MADE BY RUBÉN MARTÍNEZ RODRÍGUEZ</h3>
     </footer>
 
     <script>
-      currentSlide(1);
+        currentSlide(1);
     </script>
 </body>
 
