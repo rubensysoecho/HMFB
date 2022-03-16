@@ -129,6 +129,8 @@ header h1 {
 .titulo {
     font-size: xx-large;
     text-align: center;
+    margin: 0 auto;
+    width: 600px;
     margin-top: 50px;
     border-bottom: 1px solid black;
 }

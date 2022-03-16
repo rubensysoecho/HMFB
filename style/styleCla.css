@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
+body    {
+    background-color: rgb(160, 140, 103);
+    margin: 0;
+    font-family: "IM Fell English", serif;
+}
+
+#menu {
+    width: 250px;
+    height: 968px;
+    border-right: 1px solid black;
+    background-color: rgb(117, 101, 69);;
+}
+
+#titulo {
+    text-align: center;
+    font-size: xx-large;
+    margin: 0 auto;
+    text-decoration: underline;
+    border-bottom: 4px solid black;
+}
