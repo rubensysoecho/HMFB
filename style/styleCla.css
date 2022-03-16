@@ -25,9 +25,8 @@ img {
 }
 
 .menu   hr{
-    width: 50px;
+    width: 100px;
     border: 1px solid black;
-    transition: 2s;
 }
 
 .menu_active {
@@ -39,10 +38,6 @@ img {
     font-size: xx-large;
     margin: 0 auto;
     text-decoration: underline;
-}
-
-#titulo a:hover hr{
-    width: 150px;
 }
 
 #contenido {
