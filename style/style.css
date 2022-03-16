@@ -124,12 +124,12 @@ header h1 {
     margin-top: 200px;
     width: 1000px;
     margin: 0 auto;
-    border: 1px solid black;
 }
 
 .titulo {
     font-size: xx-large;
     text-align: center;
+    margin-top: 50px;
     border-bottom: 1px solid black;
 }
 
@@ -149,6 +149,7 @@ header h1 {
     width: 30px;
     font-size: x-large;
     display: table-cell;
+    transition: 0.3s;
 }
 
 .menu-item:hover{
