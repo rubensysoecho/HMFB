@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap");
-body    {
+body {
     background-color: rgb(160, 140, 103);
     margin: 0;
     font-family: "IM Fell English", serif;
@@ -10,13 +10,17 @@ img {
     max-height: 100%;
 }
 
-#menu {
+.menu {
     visibility: hidden;
     position: absolute;
     width: 250px;
     height: 968px;
     border-right: 1px solid black;
-    background-color: rgb(117, 101, 69);;
+    background-color: rgb(117, 101, 69);
+}
+
+.menu_active {
+    visibility: visible;
 }
 
 #titulo {
@@ -27,30 +31,30 @@ img {
     border-bottom: 4px solid black;
 }
 
-#contenido  {
+#contenido {
     margin-left: 251px;
     width: 1652px;
 }
 
-#lista  {
+#lista {
     font-size: x-large;
     margin-top: 50%;
     text-align: center;
 }
 
-#lista a    {
+#lista a {
     text-decoration: none;
     color: rgb(214, 209, 209);
 }
 
-button  {
+button {
     width: 100px;
     height: 100px;
     background-color: inherit;
     border: 0;
 }
 
-button.d-menu   {
+button.d-menu {
     cursor: pointer;
     transition: 0.4s;
 }
