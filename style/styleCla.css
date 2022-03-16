@@ -5,7 +5,14 @@ body    {
     font-family: "IM Fell English", serif;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 #menu {
+    visibility: hidden;
+    position: absolute;
     width: 250px;
     height: 968px;
     border-right: 1px solid black;
@@ -18,4 +25,32 @@ body    {
     margin: 0 auto;
     text-decoration: underline;
     border-bottom: 4px solid black;
+}
+
+#contenido  {
+    margin-left: 251px;
+    width: 1652px;
+}
+
+#lista  {
+    font-size: x-large;
+    margin-top: 50%;
+    text-align: center;
+}
+
+#lista a    {
+    text-decoration: none;
+    color: rgb(214, 209, 209);
+}
+
+button  {
+    width: 100px;
+    height: 100px;
+    background-color: inherit;
+    border: 0;
+}
+
+button.d-menu   {
+    cursor: pointer;
+    transition: 0.4s;
 }
