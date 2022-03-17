@@ -40,11 +40,6 @@ img {
     text-decoration: underline;
 }
 
-#contenido {
-    margin-left: 251px;
-    width: 1652px;
-}
-
 #lista {
     font-size: x-large;
     margin-top: 50%;
@@ -62,6 +57,8 @@ img {
 }
 
 button {
+    margin-top: 10px;
+    margin-left: 10px;
     width: 50px;
     height: 50px;
     background-color: inherit;
@@ -70,4 +67,40 @@ button {
 
 button.d-menu {
     cursor: pointer;
+}
+
+#contenido {
+    width: 100%;
+}
+
+#contenido h1   {
+    border-top: 2px double black;
+    border-bottom: 2px double black;
+    text-align: center;
+}
+
+#contenido .entradilla    {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5px;
+    border-bottom: 1px solid black;
+}
+
+#contenido p    {
+    width: 40%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#contenido .edad    {
+    font-size: x-large;
+    font-weight: bold;
+    margin:0 auto;
+    text-align: center;
+}
+
+#contenido hr   {
+    border: 1px solid black;
+    width: 15%;
 }
