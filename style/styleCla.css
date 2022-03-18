@@ -90,7 +90,8 @@ button.d-menu {
 #contenido p    {
     width: 40%;
     margin: auto;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 #contenido .edad    {
