@@ -104,3 +104,7 @@ button.d-menu {
     border: 1px solid black;
     width: 15%;
 }
+
+#contenido img  {
+    max-height: 300px;
+}
